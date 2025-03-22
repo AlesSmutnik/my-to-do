@@ -52,8 +52,7 @@ export default function Page() {
           value={input} 
           onChange={(e) => setInput(e.target.value)} 
           size={50}
-          placeholder="Zadej úkol..."
-          
+          placeholder="Zadej úkol..."          
         />
         <button onClick={addTodo}  className={styles.button} >Přidat</button>
       </div>
